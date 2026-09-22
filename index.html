@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Calculadora de Promedio</title>
-    <link rel="stylesheet" href="Estilos Del Sitio.CSS">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
@@ -36,7 +36,7 @@ function calcularPromedio() {
     let nota1 = parseFloat(document.getElementById("inputNota1").value);
     let nota2 = parseFloat(document.getElementById("inputNota2").value);
     let nota3 = parseFloat(document.getElementById("inputNota3").value);
-    
+
     if (isNaN(nota1) || isNaN(nota2) || isNaN(nota3)) {
         document.getElementById("resultadoPromedio").innerHTML = "Debe ingresar las tres notas.";
         return;
